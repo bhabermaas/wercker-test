@@ -38,9 +38,10 @@ build:
         code: |
           go build ./...
 
-pipeline1:
+pipeline1: 
     steps:
     - setup-go-workspace
-    	
+
     - script: do nothing
       code: echo "Hello world!"
+
