@@ -37,3 +37,7 @@ build:
         name: go build
         code: |
           go build ./...
+
+pipeline1:
+    - script: do nothing
+      code: echo "Hello world!"
