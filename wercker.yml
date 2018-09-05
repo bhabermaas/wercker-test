@@ -43,5 +43,27 @@ pipeline1:
     - setup-go-workspace
 
     - script: do nothing
-      code: echo "Hello world!"
+      code: echo "Hello world1!
+
+pipeline2:
+    steps:
+    - setup-go-workspace
+
+    - script: do nothing
+      code: echo "Hello world2!"
+
+pipeline3:
+    steps:
+    - setup-go-workspace
+
+    - script: do nothing
+      code: echo "Hello world3!"
+
+pipeline4:
+    steps:
+    - setup-go-workspace
+
+    - script: do nothing
+      code: echo "Hello world4!"
+
 
