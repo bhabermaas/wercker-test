@@ -43,7 +43,7 @@ pipeline1:
     - setup-go-workspace
 
     - script: do nothing
-      code: echo "Hello world1!
+      code: echo "Hello world1!"
 
 pipeline2:
     steps:
