@@ -39,7 +39,8 @@ build:
           go build ./...
 
     - script:      
-
+          go test ./..
+          
 pipeline1: 
     steps:
     - setup-go-workspace
