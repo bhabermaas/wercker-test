@@ -7,6 +7,6 @@ import (
 
 func run_test(t *testing.T) {
 
-	fmt.Print("Dummy test passed")
+	fmt.Print("Dummy test passed!")
 
 }
