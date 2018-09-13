@@ -40,7 +40,7 @@ build:
           set -x
           pwd
           ls -al
-          cp ./.../wercker-test $WERCKER_REPORT_ARTIFACTS_DIR/hellotest
+          cp wercker-test $WERCKER_REPORT_ARTIFACTS_DIR/hellotest
 
 pipeline1: 
     steps:
